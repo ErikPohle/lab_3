@@ -1,6 +1,6 @@
 #!/bin/bash
-# Author : Your Name
-# Date: Today's date
+# Author : Erik Pohle
+# Date: 9/20/19
 # Script follows here:
 echo "Enter a number: "
 read numOne
