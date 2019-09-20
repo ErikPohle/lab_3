@@ -7,7 +7,7 @@
 read user_input
 grep user_input regex_practice.txt
 let a=303
-grep -c '[a-z0-9A-Z]' regex_practice.txt
+grep -E -c '[0-9]{3}-[0-9]{3}-[0-9]{3}' regex_practice.txt
 grep -c '[@]' regex_practice.txt
 grep -E $a regex_practice.txt
 grep '@geocities.com' regex_practice.txt >> email_results.txt
